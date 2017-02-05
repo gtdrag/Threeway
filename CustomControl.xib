@@ -30,34 +30,34 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="502" height="81"/>
+            <rect key="frame" x="0.0" y="0.0" width="676" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttk-hT-hVz" userLabel="line">
-                    <rect key="frame" x="85.5" y="42" width="331" height="1"/>
+                    <rect key="frame" x="115" y="41.5" width="446" height="1"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="UkP-iG-4Dp"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7cD-BS-qpg" userLabel="left">
-                    <rect key="frame" x="0.0" y="0.0" width="167" height="81"/>
+                    <rect key="frame" x="0.0" y="0.0" width="225" height="80"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ind-fL-2Ro">
-                            <rect key="frame" x="0.0" y="60" width="167" height="11"/>
+                            <rect key="frame" x="0.0" y="59" width="225" height="11"/>
                             <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="control-icon-avid" translatesAutoresizingMaskIntoConstraints="NO" id="ApF-LS-jVH">
-                            <rect key="frame" x="75" y="7" width="17" height="23"/>
+                            <rect key="frame" x="104" y="7" width="17" height="23"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="22.5" id="IVt-tq-yrC"/>
                                 <constraint firstAttribute="width" constant="17.5" id="YuL-67-zSe"/>
                             </constraints>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRT-cf-58L">
-                            <rect key="frame" x="0.0" y="0.0" width="167" height="81"/>
+                            <rect key="frame" x="0.0" y="0.0" width="225" height="80"/>
                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             <state key="normal" title="•">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,23 +81,23 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVN-uN-Nmd" userLabel="middle">
-                    <rect key="frame" x="167" y="0.0" width="168" height="81"/>
+                    <rect key="frame" x="225" y="0.0" width="226" height="80"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKILL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcg-h4-kOT">
-                            <rect key="frame" x="0.0" y="60" width="168" height="11"/>
+                            <rect key="frame" x="0.0" y="59" width="226" height="11"/>
                             <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="control-icon-skill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zh-x0-Lwy">
-                            <rect key="frame" x="71" y="2" width="27" height="28"/>
+                            <rect key="frame" x="100" y="2" width="27" height="28"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="27.5" id="K3W-K6-rwN"/>
                                 <constraint firstAttribute="height" constant="27.5" id="noR-pD-dpx"/>
                             </constraints>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7X-fH-8gB">
-                            <rect key="frame" x="0.0" y="0.0" width="168" height="81"/>
+                            <rect key="frame" x="0.0" y="0.0" width="226" height="80"/>
                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             <state key="normal" title="•">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -121,23 +121,23 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3e-GK-fbf" userLabel="right">
-                    <rect key="frame" x="335" y="0.0" width="167" height="81"/>
+                    <rect key="frame" x="451" y="0.0" width="225" height="80"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqX-Xv-Ced">
-                            <rect key="frame" x="0.0" y="60" width="167" height="11"/>
+                            <rect key="frame" x="0.0" y="59" width="225" height="11"/>
                             <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="control-icon-pro" translatesAutoresizingMaskIntoConstraints="NO" id="c8L-Tj-aRi">
-                            <rect key="frame" x="70.5" y="3" width="27" height="28"/>
+                            <rect key="frame" x="99.5" y="3" width="27" height="28"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="27.5" id="8ZO-Ec-12g"/>
                                 <constraint firstAttribute="height" constant="27.5" id="LwA-P3-AuB"/>
                             </constraints>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-ol-Pqi">
-                            <rect key="frame" x="0.0" y="0.0" width="167" height="81"/>
+                            <rect key="frame" x="0.0" y="0.0" width="225" height="80"/>
                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             <state key="normal" title="•">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -181,7 +181,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-707" y="-271.5"/>
+            <point key="canvasLocation" x="-620" y="-272"/>
         </view>
     </objects>
     <resources>

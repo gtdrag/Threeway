@@ -17,6 +17,8 @@
 		D662BF0C1E44C3D000ABAE22 /* CustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D662BF0B1E44C3D000ABAE22 /* CustomControl.xib */; };
 		D662BF0E1E44C46D00ABAE22 /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662BF0D1E44C46D00ABAE22 /* CustomControl.swift */; };
 		D662BF121E44F12800ABAE22 /* GOTHAM-MEDIUM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D662BF111E44F12800ABAE22 /* GOTHAM-MEDIUM.TTF */; };
+		D6B02E6F1E467F48005663C9 /* FautusButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B02E6E1E467F48005663C9 /* FautusButton.xib */; };
+		D6B02E711E46839A005663C9 /* FautusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B02E701E46839A005663C9 /* FautusButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D662BF0B1E44C3D000ABAE22 /* CustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomControl.xib; path = ../CustomControl.xib; sourceTree = "<group>"; };
 		D662BF0D1E44C46D00ABAE22 /* CustomControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
 		D662BF111E44F12800ABAE22 /* GOTHAM-MEDIUM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-MEDIUM.TTF"; sourceTree = "<group>"; };
+		D6B02E6E1E467F48005663C9 /* FautusButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FautusButton.xib; path = ../FautusButton.xib; sourceTree = "<group>"; };
+		D6B02E701E46839A005663C9 /* FautusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FautusButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +114,10 @@
 				D662BEE41E44C3BB00ABAE22 /* Assets.xcassets */,
 				D662BEE61E44C3BB00ABAE22 /* LaunchScreen.storyboard */,
 				D662BEE91E44C3BB00ABAE22 /* Info.plist */,
+				D6B02E6E1E467F48005663C9 /* FautusButton.xib */,
 				D662BF0B1E44C3D000ABAE22 /* CustomControl.xib */,
 				D662BF0D1E44C46D00ABAE22 /* CustomControl.swift */,
+				D6B02E701E46839A005663C9 /* FautusButton.swift */,
 			);
 			path = ThreeWay;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				D662BF0C1E44C3D000ABAE22 /* CustomControl.xib in Resources */,
 				D662BEE31E44C3BB00ABAE22 /* Main.storyboard in Resources */,
 				D662BF121E44F12800ABAE22 /* GOTHAM-MEDIUM.TTF in Resources */,
+				D6B02E6F1E467F48005663C9 /* FautusButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D662BEE01E44C3BB00ABAE22 /* ViewController.swift in Sources */,
+				D6B02E711E46839A005663C9 /* FautusButton.swift in Sources */,
 				D662BF0E1E44C46D00ABAE22 /* CustomControl.swift in Sources */,
 				D662BEDE1E44C3BB00ABAE22 /* AppDelegate.swift in Sources */,
 			);
@@ -534,6 +542,7 @@
 				D662BF041E44C3BB00ABAE22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D662BF051E44C3BB00ABAE22 /* Build configuration list for PBXNativeTarget "ThreeWayTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +551,7 @@
 				D662BF071E44C3BB00ABAE22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D662BF081E44C3BB00ABAE22 /* Build configuration list for PBXNativeTarget "ThreeWayUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +560,7 @@
 				D662BF0A1E44C3BB00ABAE22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

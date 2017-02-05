@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,24 +23,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yp-3q-RAv" customClass="CustomControl" customModule="ThreeWay">
-                                <rect key="frame" x="28" y="60" width="318" height="75"/>
+                                <rect key="frame" x="16" y="288.5" width="343" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="UlU-nw-6O8"/>
-                                    <constraint firstAttribute="width" constant="318" id="pd4-Mf-RbP"/>
+                                    <constraint firstAttribute="height" constant="90" id="JQF-tS-VFO"/>
                                 </constraints>
                                 <connections>
                                     <action selector="valueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="JIC-fs-k1W"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7W6-cc-80W" customClass="FautusButton" customModule="ThreeWay" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="YlB-Pa-nol"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fautusButtonText" value="Poop man"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fautusButtonTouchUp:" destination="BYZ-38-t0r" eventType="valueChanged" id="HRv-RW-j1Z"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1yp-3q-RAv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="Bn1-IK-Qao"/>
-                            <constraint firstItem="1yp-3q-RAv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J5V-pg-845"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1yp-3q-RAv" secondAttribute="trailing" id="LaB-rO-DcV"/>
+                            <constraint firstItem="1yp-3q-RAv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fuP-CY-7KD"/>
+                            <constraint firstItem="1yp-3q-RAv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gRD-xO-Sdi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7W6-cc-80W" secondAttribute="trailing" id="p2b-rf-QCK"/>
+                            <constraint firstItem="7W6-cc-80W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qSF-qF-RtN"/>
+                            <constraint firstItem="7W6-cc-80W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yg4-3o-YEc"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fautusButton" destination="7W6-cc-80W" id="WvP-iA-xtg"/>
                         <outlet property="threeWayToggle" destination="1yp-3q-RAv" id="jmZ-H3-RM6"/>
                     </connections>
                 </viewController>

@@ -12,7 +12,6 @@ import UIKit
     
     @IBOutlet var avidLabel: UILabel!
     @IBOutlet var skillLabel: UILabel!
-
     @IBOutlet var proLabel: UILabel!
     @IBOutlet weak var avidButton: UIButton!
     @IBOutlet weak var skillButton: UIButton!
@@ -75,7 +74,7 @@ import UIKit
         
 }
     
-    public func updateDisplay(){
+    func updateDisplay(){
         let myGreen = UIColor(red: 0, green: 209, blue: 208, alpha: 1.0)
         switch selectedIndex {
         case 1:

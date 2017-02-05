@@ -8,8 +8,19 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController {
     @IBOutlet weak var threeWayToggle: CustomControl!
+    
+    @IBOutlet weak var fautusButton: FautusButton!
+    
+    @IBAction func fautusButtonTouchUp(_ sender: Any) {
+        let alert = UIAlertController(title: "Button", message:String("touch up"), preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     
     @IBAction func valueChanged() {
         let alert = UIAlertController(title: "Selected", message:String(threeWayToggle.selectedIndex), preferredStyle: UIAlertControllerStyle.alert)
@@ -17,10 +28,13 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
 
+
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-    }
+        fautusButton.fautusButtonText = "login"
+            super.viewDidLoad()
+
+}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

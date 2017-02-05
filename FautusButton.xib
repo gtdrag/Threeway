@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHAM-MEDIUM.TTF">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FautusButton" customModule="ThreeWay">
+            <connections>
+                <outlet property="caretImage" destination="zHA-Ue-CQA" id="HT7-Xy-X6r"/>
+                <outlet property="fautusButton" destination="HXs-zf-F31" id="p3K-X7-sR5"/>
+                <outlet property="fautusButtonLabel" destination="WbF-iP-LMJ" id="UmL-hF-Fdb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONTINUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbF-iP-LMJ">
+                    <rect key="frame" x="115.5" y="0.0" width="89" height="49"/>
+                    <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="control-next-icon" translatesAutoresizingMaskIntoConstraints="NO" id="zHA-Ue-CQA">
+                    <rect key="frame" x="224.5" y="16" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="ZjI-bx-4KM"/>
+                        <constraint firstAttribute="width" constant="16" id="zLf-we-Y94"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQZ-qF-G1r" userLabel="horizRule">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="kGP-cS-YFx"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWd-BL-KhX" userLabel="horizRule">
+                    <rect key="frame" x="0.0" y="48" width="320" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="drR-Fy-Ufr"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXs-zf-F31">
+                    <rect key="frame" x="0.0" y="0.5" width="320" height="49"/>
+                    <connections>
+                        <action selector="fautusButtonTouchDown:" destination="-1" eventType="touchDown" id="ntJ-NV-wCY"/>
+                        <action selector="fautusButtonTouchUp:" destination="-1" eventType="touchUpInside" id="a3N-fG-K8C"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HXs-zf-F31" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="560-Ah-uaY"/>
+                <constraint firstItem="HXs-zf-F31" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="5I1-UD-S9y"/>
+                <constraint firstItem="TQZ-qF-G1r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9i4-EF-mNi"/>
+                <constraint firstItem="zHA-Ue-CQA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-1" id="BqW-iM-lFf"/>
+                <constraint firstItem="TQZ-qF-G1r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GI6-Ex-fbc"/>
+                <constraint firstItem="HXs-zf-F31" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="UM8-F6-Ycz"/>
+                <constraint firstAttribute="bottom" secondItem="WbF-iP-LMJ" secondAttribute="bottom" id="WfR-Kt-SPS"/>
+                <constraint firstItem="zHA-Ue-CQA" firstAttribute="leading" secondItem="WbF-iP-LMJ" secondAttribute="trailing" constant="20" id="avl-TE-QGq"/>
+                <constraint firstItem="HXs-zf-F31" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="gNf-RQ-8jt"/>
+                <constraint firstAttribute="trailing" secondItem="TQZ-qF-G1r" secondAttribute="trailing" id="hqz-1g-W8Y"/>
+                <constraint firstItem="WbF-iP-LMJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qhq-bM-3rj"/>
+                <constraint firstItem="QWd-BL-KhX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="r9n-n6-E4f"/>
+                <constraint firstAttribute="trailing" secondItem="QWd-BL-KhX" secondAttribute="trailing" id="wed-6P-pf8"/>
+                <constraint firstAttribute="bottom" secondItem="QWd-BL-KhX" secondAttribute="bottom" id="yTq-4F-bDk"/>
+                <constraint firstItem="WbF-iP-LMJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yYd-hY-x0d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-4" y="-264.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="control-next-icon" width="16" height="16"/>
+    </resources>
+</document>
