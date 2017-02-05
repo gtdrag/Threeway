@@ -79,6 +79,7 @@
                 <constraint firstAttribute="bottom" secondItem="QWd-BL-KhX" secondAttribute="bottom" id="yTq-4F-bDk"/>
                 <constraint firstItem="WbF-iP-LMJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yYd-hY-x0d"/>
             </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="-4" y="-264.5"/>
         </view>

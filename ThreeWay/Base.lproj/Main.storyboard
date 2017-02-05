@@ -39,7 +39,7 @@
                                     <constraint firstAttribute="height" constant="60" id="YlB-Pa-nol"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="fautusButtonText" value="Poop man"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fautusButtonText" value="ok ok ok "/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="fautusButtonTouchUp:" destination="BYZ-38-t0r" eventType="valueChanged" id="HRv-RW-j1Z"/>
